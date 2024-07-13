@@ -1,7 +1,7 @@
 // Modules
 import React from 'react'
 
-const SignIn = () => {
+const SignInForm = () => {
   return (
     <div className="rounded-xl shadow-sm flex items-center flex-col w-full bg-white p-5">
       <h2 className="text-4xl mb-6">Iniciar sesion</h2>
@@ -40,4 +40,4 @@ const SignIn = () => {
   )
 }
 
-export default SignIn;
+export default SignInForm;

@@ -1,12 +1,16 @@
 // Components
 import Nav from "@/components/organisms/Nav";
-import Container from "@/components/templates/container";
+import BoardSummary from "@/components/pages/Home/BoardSummary";
+import HomeContainer from "@/components/pages/Home/HomeContainer";
+import HomeHeroSection from "@/components/pages/Home/HomeHeroSection";
 
 const Home = () => {
   return (
-    <Container className="bg-white dark:bg-black font-sans text-black dark:text-white">
+    <HomeContainer>
       <Nav />
-    </Container>
+      <HomeHeroSection />
+      <BoardSummary />
+    </HomeContainer>
   );
 }
 
