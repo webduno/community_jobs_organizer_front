@@ -45,10 +45,9 @@ const BoardSummary = () => {
         <>
             <div className="min-h-screen flex flex-col w-full px-4 lg:px-24" style={{ background: "#040606" }} id="dashboard">
                 <div className="flex flex-col pt-48 h-screen ">
-                    <div className="flex gap-4 ">
-
-                        <div className="">
-                            <div className="flex-grow max-w-64  px-4 sm:px-8 py-8 rounded-[50px] min-h-96" style={{ background: "#060b0b" }}>
+                    <div className="flex gap-4  h-full">
+                        <div className="h-full">
+                            <div className="flex-grow max-w-64 h-full  px-4 sm:px-8 py-8 rounded-[50px] min-h-96 " style={{ background: "#060b0b" }}>
                                 <div className="pb-4 text-2xl">Dashboard</div>
                                 <div>
                                     <div>
