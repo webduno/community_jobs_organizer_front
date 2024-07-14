@@ -72,10 +72,10 @@ const BoardSummary = () => {
 
                         <div className="flex flex-col flex-grow w-full gap-4 ">
                             <div className=" flex flex-wrap justify-end gap-4">
-                                <div className="flex-grow max-w-64 px-4 sm:px-8 py-12 pt-6 rounded-[50px] h-36" style={{ background: "#060b0b" }}>
+                                <div className="hidden sm:block flex-grow max-w-64 px-4 sm:px-8 py-12 pt-6 rounded-[50px] h-36" style={{ background: "#060b0b" }}>
                                     <div className="">Postings</div>
                                 </div>
-                                <div className="flex-grow max-w-64 px-4 sm:px-8 py-12 pt-6 rounded-[50px] h-36" style={{ background: "#060b0b" }}>
+                                <div className="hidden sm:block flex-grow max-w-64 px-4 sm:px-8 py-12 pt-6 rounded-[50px] h-36" style={{ background: "#060b0b" }}>
                                     <div className="">Applications</div>
                                 </div>
                                 <div className="flex-grow max-w-64 px-8 py-12 pt-6 rounded-[50px] h-36 flex flex-col justify-center text-center" 
@@ -86,7 +86,7 @@ const BoardSummary = () => {
                             </div>
                             <div className="flex w-full flex-grow ">
                                 <div className="flex-grow  w-full  px-8 py-12 pt-6 rounded-[50px] " style={{ background: "#060b0b" }}>
-                                    <div className="">Postings</div>
+                                    <div className="">Summary</div>
                                 </div>
                             </div>
                         </div>

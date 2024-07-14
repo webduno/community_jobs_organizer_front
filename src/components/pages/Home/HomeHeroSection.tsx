@@ -32,13 +32,16 @@ const HomeHeroSection = () => {
         </div>
       </div>
       <div className="w-100" style={{}}></div>
-      <div className="absolute bottom-0 w-full flex items-center justify-center pb-20">
-        <Link href={"/#dashboard"} className="p-3 text-white m-2 rounded-[100px] flex"
-          style={{background: "#fF6505",boxShadow:"inset 5px 5px 10px #ffffff11, inset -5px -5px 10px #00000077"}}
-        >
-          <div className='text-4xl px-8' style={{}}>Enter App</div>
-        </Link>
-      </div>
+            
+        <div className="absolute bottom-0 w-full flex items-center justify-center pb-20">
+          <Link href={"/#dashboard"} className="p-3 text-white m-2 rounded-[100px] flex"
+            style={{background: "#fF6505",boxShadow:"inset 5px 5px 10px #ffffff11, inset -5px -5px 10px #00000077"}}
+          >
+            <div className='text-4xl px-8' style={{}}>Enter App</div>
+          </Link>
+        </div>
+     
+
     </div>
   </>)
 }
