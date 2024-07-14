@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Nav = () => {
   return (
-    <div className="fixed top-0 w-full text-white flex pt-8 z-10"
+    <div className="fixed top-0 w-full text-white flex pt-2 z-10"
       style={{
         backdropFilter: "blur(5px)",
       }}
