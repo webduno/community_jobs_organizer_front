@@ -9,7 +9,8 @@ const HomeHeroSection = () => {
         background: "radial-gradient(#00000000 50%, #000000), linear-gradient(45deg, #22424C, #0E1114, #22424C) "
       }}
     >
-      <div className="py-20"></div>
+      <div className="py-10 hidden sm:block"></div>
+      <div className="py-10"></div>
       <div className="w-full flex flex-col items-center">
         <div className="w-full max-w-5xl px-8" >
           <h2 className="text-3xl  " style={{color: "white"}}>
@@ -22,9 +23,12 @@ const HomeHeroSection = () => {
             </div>
           </h2>
         </div>
-        <div className=" w-full flex  content-end justify-end ">
+        <div className=" w-full flex  content-end justify-end pr-32">
           <div className="flex-grow"></div>
-          <Image alt="landing-hero-section" src={"/img/jobs.png"} width={300} height={300} className="hidden sm:block" />
+          <Image alt="landing-hero-section" src={"/img/jobs.png"} width={300} height={300} 
+            className="pt-40 sm:pt-0" 
+            // className="hidden sm:block" 
+            />
         </div>
       </div>
       <div className="w-100" style={{}}></div>

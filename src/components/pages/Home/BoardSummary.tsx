@@ -46,12 +46,12 @@ const BoardSummary = () => {
             <div className="min-h-screen flex flex-col w-full px-4 lg:px-24" style={{ background: "#040606" }} id="dashboard">
                 <div className="flex flex-col pt-48 h-screen ">
                     <div className="flex gap-4  h-full">
-                        <div className="h-full">
-                            <div className="flex-grow max-w-64 h-full  px-4 sm:px-8 py-8 rounded-[50px] min-h-96 " style={{ background: "#060b0b" }}>
-                                <div className="pb-4 text-2xl">Dashboard</div>
-                                <div>
+                        <div className="h-full w-full max-w-sm">
+                            <div className="flex flex-col overflow-y-hidden flex-grow   h-full  px-4 sm:px-8 py-8 rounded-[50px] min-h-96 " style={{ background: "#060b0b" }}>
+                                <div className="pb-4  text-2xl">Dashboard</div>
+                                <div className="overflow-y-auto flex-col">
                                     <div>
-                                        <div className="flex flex-col gap-4 ">
+                                        <div className="flex flex-col gap-4  " >
                                             {postings.map((post) => (
                                                 <div key={post.id} className="rounded-xl py-2 px-6 rounded-lg shadow-lg drop-shadow-xl" style={{ background: "#0a1111" }}>
                                                     <h3 className=" font-bold mb-2">{post.title}</h3>
