@@ -38,6 +38,42 @@ const postings = [
         date_posted: "2024-07-10",
         applications_received: 15
     },
+    {
+        id: 4,
+        title: "UX Designer",
+        company: "Creative Solutions Ltd.",
+        location: "Austin, TX",
+        description: "We need a UX designer to improve user experience for our products.",
+        requirements: ["Bachelor's degree in Design", "3+ years of experience in UX design", "Proficiency in Sketch, Figma"],
+        salary: "$80,000 - $100,000",
+        status: "Active",
+        date_posted: "2024-07-12",
+        applications_received: 20
+    },
+    {
+        id: 5,
+        title: "Marketing Specialist",
+        company: "Brand Builders Co.",
+        location: "Los Angeles, CA",
+        description: "Seeking a marketing specialist to enhance our brand presence.",
+        requirements: ["Bachelor's degree in Marketing", "2+ years of experience in marketing", "Strong analytical skills"],
+        salary: "$70,000 - $90,000",
+        status: "Closed",
+        date_posted: "2024-07-08",
+        applications_received: 30
+    },
+    {
+        id: 6,
+        title: "IT Support Technician",
+        company: "Support Heroes Inc.",
+        location: "Chicago, IL",
+        description: "Looking for an IT support technician to assist with technical issues.",
+        requirements: ["Associate's degree in Information Technology", "1+ years of experience in IT support", "Proficiency in Windows and Linux"],
+        salary: "$50,000 - $70,000",
+        status: "Active",
+        date_posted: "2024-07-09",
+        applications_received: 10
+    }
 ]
 
 const BoardSummary = () => {
