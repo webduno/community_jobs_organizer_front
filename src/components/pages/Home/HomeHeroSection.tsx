@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HomeHeroSection = () => {
   return (<>
-    <div className="w-full  h-screen flex flex-col content-center "
+    <div className="w-full text-white h-screen flex flex-col content-center "
       style={{
         background: "radial-gradient(#00000000 50%, #000000), linear-gradient(45deg, #22424C, #0E1114, #22424C) "
       }}

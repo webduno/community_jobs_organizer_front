@@ -43,7 +43,7 @@ const postings = [
 const BoardSummary = () => {
     return (
         <>
-            <div className="min-h-screen flex flex-col w-full px-4 lg:px-24" style={{ background: "#040606" }} id="dashboard">
+            <div className="min-h-screen flex flex-col w-full px-4 lg:px-24 text-white" style={{ background: "#040606" }} id="dashboard">
                 <div className="flex flex-col pt-48 h-screen ">
                     <div className="flex gap-4  h-full">
                         <div className="h-full w-full max-w-sm">
