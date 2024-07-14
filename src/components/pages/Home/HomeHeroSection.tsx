@@ -1,5 +1,5 @@
 // Modules
-
+import Image from "next/image";
 import Link from "next/link";
 
 const HomeHeroSection = () => {
@@ -21,6 +21,10 @@ const HomeHeroSection = () => {
               </div>
             </div>
           </h2>
+        </div>
+        <div className=" w-full flex  content-end justify-end ">
+          <div className="flex-grow"></div>
+          <Image alt="landing-hero-section" src={"/img/jobs.png"} width={300} height={300} className="hidden sm:block" />
         </div>
       </div>
       <div className="w-100" style={{}}></div>
